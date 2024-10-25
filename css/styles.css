@@ -305,6 +305,9 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
 }
+.team-icon-item{
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
 .team-list-icon {
     display: flex;
     align-items: center;
@@ -313,6 +316,7 @@ color: #434455;
     margin-left: auto;
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .taste-link-icon {
  display: flex;
