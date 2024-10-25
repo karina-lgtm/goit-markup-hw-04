@@ -319,9 +319,10 @@ color: #434455;
 justify-content: center;
  width: 40px;
 height: 40px;
+background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 background-color: #4d5ae5;
 border-radius: 50%;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .taste-link-icon:hover,
 .taste-link-icon:focus {
@@ -392,11 +393,9 @@ color: #434455;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.made-list, 
-.made-item:hover .thumb,
- .thumb-cover-text {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px 
-    rgba(46, 47, 66, 0.08);
+.made-list:hover.made-item {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+    transform: translateY(0%);
   }
 
   .made-item:hover.thumb-cover-text{
@@ -407,6 +406,10 @@ color: #434455;
     position: relative;
     overflow: hidden;
   }
+  .thumb:hover.thumb-cover-text {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+    transform: translateY(0%);
+ }
 
   .thumb .thumb-cover-text {
     position: absolute;
@@ -420,8 +423,8 @@ color: #434455;
     height: 100%;
     background-color: #4d5ae5;
     padding: 40px 32px;
-    transform: translateY(100%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+    transform: translateY(0%);
   }
 
 
