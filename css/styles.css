@@ -399,8 +399,8 @@ color: #434455;
     transform: translateY(0%);
   }
 
-  .made-item:hover.thumb-cover-text{
-    transform: translateY(0%);
+  .made-item:hover .thumb-cover-text{
+    transform: translate(100%);
   }
 
 .thumb {
@@ -426,6 +426,7 @@ color: #434455;
     padding: 40px 32px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
     transform: translateY(0%);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 
